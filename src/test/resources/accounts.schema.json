@@ -8,9 +8,7 @@
       "name",
       "number",
       "balance",
-      "currency",
-      "RUB",
-      "USD"
+      "currency"
     ],
     "additionalProperties": false,
     "properties": {
@@ -29,12 +27,6 @@
         "type": "integer"
       },
       "currency": {
-        "type": "string"
-      },
-      "RUB": {
-        "type": "string"
-      },
-      "USD": {
         "type": "string"
       }
     }
